@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: ncbi-search
+Version: 0.2.0
+Summary: NCBI Entrez search utilities (ClinVar + PubMed)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: biopython>=1.81
+
 # ncbi-search
 
 Reusable NCBI Entrez search utilities.

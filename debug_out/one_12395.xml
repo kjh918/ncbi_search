@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><Info>Variation objects (blobs) are no longer supported. They were replaced by the VCV XML, which you can retrieve using rettype =vcv. See our web release notes from April 2019 (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/release_notes/web_2.0_alpha/20190404WebRelease.pdf) and our documentation on E-utilities for ClinVar (https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/#api)</Info>
+</ClinVarResult-Set>

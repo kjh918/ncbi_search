@@ -1,0 +1,2 @@
+[console_scripts]
+ncbi_search = ncbi_search.cli:main

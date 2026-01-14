@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncbi-search"
+version = "0.2.0"
+description = "NCBI Entrez search utilities (ClinVar + PubMed)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "biopython>=1.81",
+]
+
+[project.scripts]
+ncbi_search = "ncbi_search.cli:main"  # ✅ CHANGED: underscore command
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
